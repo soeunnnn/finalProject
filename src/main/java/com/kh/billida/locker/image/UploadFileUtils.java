@@ -32,7 +32,7 @@ public class UploadFileUtils {
 		//S3Util 의 fileUpload 메서드로 파일을 업로드한다.
 		s3.fileUpload(bucketName, uploadPath+uploadedFileName, byteData);
 
-
+		
 		logger.info(uploadedFileName);
 // s3.fileUpload(bucketName, new File(fileName))
 

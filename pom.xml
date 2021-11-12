@@ -186,13 +186,13 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.4</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+
 		<dependency>
 		    <groupId>com.amazonaws</groupId>
-		    <artifactId>aws-java-sdk</artifactId>
-		    <version>1.9.2</version>
+		    <artifactId>aws-java-sdk-s3</artifactId>
+		    <version>1.12.108</version>
 		</dependency>
-		
+
 		
 		<!-- Servlet -->
 		<dependency>
